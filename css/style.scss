@@ -1,0 +1,277 @@
+@import 'lib/bootstrap';
+
+$project: app;
+$project_logo_background_color: #e5e5e5;
+
+.#{$project}-top{
+  text-align: center;
+  font-size: 24px;
+  height: 50px;
+
+  div{
+    padding-top:8px;
+  }
+
+  .#{$project}-logo{
+    @include clearfix();
+
+    .#{$project}-logo-info{
+    font-size: 24px;
+    margin-left: 10px;
+    float: left;
+    }
+  }
+
+  .#{$project}-logo-right{
+      float: right;
+
+      .#{$project}-top-search{
+        font-size: 24px;
+        color: #000;
+        margin-right: 20px;
+      }
+
+      .#{$project}-top-local{
+        font-size: 24px;
+        color: #000;
+        margin-right: 30px;
+      }
+  }
+}
+
+
+
+.#{$project}-menu{
+	padding: 0;
+  position: absolute;
+  width:100%;
+  margin: 0;
+  border:0;
+  border-radius:0;
+
+  .divider{
+    margin: 0;
+  }
+
+  > li > a{
+    padding: 9px 20px;
+
+  }
+
+  > li{
+  }
+}
+
+.#{$project}-container{
+  padding: 0;
+}
+
+.nav-wrapper{
+  padding: 0;
+
+  @include clearfix();
+
+  .#{$project}-nav {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .#{$project}-dropdown{
+    width: 25%;
+    float: left;
+  }
+
+  .#{$project}-price-container{
+    padding:9px 12px;
+  }
+
+  .#{$project}-price-form{
+    width: 80px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .#{$project}-divider{
+    border-right: 1px #eee solid;
+  }
+}
+
+
+.#{$project}-navbar{
+  min-height: 0;
+  margin: 0;
+  text-align: center;
+}
+
+// .#{$project}-top-navbar{
+//   margin-bottom: 5px;
+// }
+
+.#{$project}-nav-list{
+  @include clearfix();
+}
+
+.#{$project}-nav-inner-container{
+  @include clearfix();
+}
+
+.#{$project}-nav-container{
+  @include clearfix();
+}
+
+
+.glyphicon-search:before {
+  content: "\e003";
+}
+
+.navbar-fixed-bottom{
+  // .#{$project}-navbar span{
+  //   display: inline-block;
+  // }
+
+  .#{$project}-navbar{
+    width: 100%;
+    text-align: center;
+
+    > li{
+      width: 33.3%;
+      float: left;
+
+      > a{
+        padding:5px 5px 0;
+      }
+    }
+
+    .#{$project}-icon{
+      display: block;
+      font-size: 18px;
+    }
+
+    .#{$project}-icon-text{
+      font-size: 12px;
+    }
+  }
+}
+
+.#{$project}-list-view{
+
+  .#{$project}-list-img{
+    padding:10px 10px;
+    @include clearfix();
+
+    img{
+      width: 140px;
+      height: 95px;
+      display: inline-block;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .#{$project}-list-title{
+      display: inline-block;
+      font-size:12px;
+      padding:0;
+      width: 55%;
+
+      h3{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0 0 6px;
+        width:100%;
+      }
+
+      h4{
+        font-size: 13px;
+        margin: 0 0 6px 0;
+      }
+
+      .price{
+        margin: 0 0 6px;
+
+        span{
+          font-size: 13px;
+        }
+
+        .right-price{
+          float: right;
+        }
+      }
+
+      span{
+        display: inline-block;
+      }
+
+      .advance{
+        padding: 5px;
+        border: 1px #eee solid;
+        background-color: #e5e5e5;
+      }
+    }
+  }
+}
+
+
+.#{$project}-re-list{
+  padding:10px 0 0;
+  text-align: left;
+  font-size: 15px;
+
+  img{
+    width: 100%;
+    height: 270px;
+  }
+
+  .#{$project}-re-info{
+    display: block;
+    padding:10px 15px 0;
+  }
+}
+
+.#{$project}-aboutus{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: $project_logo_background_color;
+
+  img{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
